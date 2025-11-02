@@ -3,4 +3,8 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("styles");
+
+  eleventyConfig.addShortcode("currentYear", function() {
+    return new Date().getFullYear();
+  });
 };
