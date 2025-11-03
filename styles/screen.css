@@ -1,11 +1,9 @@
-/* Reset some default browser styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Base styling */
 body {
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.6;
@@ -14,7 +12,6 @@ body {
   padding: 2rem;
 }
 
-/* Navigation */
 nav {
   background: white;
   padding: 1rem 2rem;
@@ -41,7 +38,6 @@ nav a:hover {
   color: #005fa3;
 }
 
-/* Heading */
 h1 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
@@ -49,7 +45,6 @@ h1 {
   color: #222;
 }
 
-/* Image styling */
 img.about {
   display: block;
   margin: 2rem auto;
@@ -58,29 +53,10 @@ img.about {
   background-color: white;
 }
 
-/* Strong text highlight */
 strong {
   color: #0077cc;
 }
 
-/* Make it responsive */
-@media (max-width: 600px) {
-  body {
-    padding: 1rem;
-  }
-
-  nav ul {
-    flex-direction: column;
-    gap: 0.75rem;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-}
-
-/* Header */
 header {
   text-align: center;
   margin-bottom: 3rem;
@@ -97,7 +73,6 @@ header p {
   margin-top: 0.5rem;
 }
 
-/* Items Layout */
 .items {
   display: flex;
   gap: 2rem;
@@ -105,7 +80,6 @@ header p {
   margin: 0 auto;
 }
 
-/* Individual Item */
 .item {
   background: white;
   border-radius: 12px;
@@ -132,7 +106,6 @@ header p {
   color: #0077cc;
 }
 
-/* Footer */
 footer {
   text-align: center;
   margin-top: 3rem;
